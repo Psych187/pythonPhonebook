@@ -3,6 +3,7 @@ path = 'phones.txt'
 SEPARATOR = ';'
 
 
+
 def open_file():
     global phone_book
     with open(path, 'r', encoding='utf-8') as file:

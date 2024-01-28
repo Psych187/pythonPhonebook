@@ -3,6 +3,7 @@ import view
 import model
 
 
+
 def find_contact():
     word = view.input_data(text.input_search_word)
     result = model.find_contact(word)
