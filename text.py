@@ -1,51 +1,51 @@
-main_menu = ['MAin menue',
-             'Open file',
-             'Save file',
-             'Show phonebook',
-             'Create contact',
-             'Find contact',
-             'Change contact',
-             'Remove contact',
-             'Exit']
+main_menu = ['Главное меню',
+             'Открыть файл',
+             'Сохранить файл',
+             'Показать контакты',
+             'Создать контакт',
+             'Найти контакт',
+             'Изменить контакт',
+             'Удалить контакт',
+             'Выход']
 
-main_menu_choice = 'Choose punct in menue: '
+main_menu_choice = 'Выберите пункт меню: '
 
-load_successful = 'Phonebook successfully uploaded'
-save_successful = 'Phonebook successfully saved'
+load_successful = 'Телефонная книга успешно загружена!'
+save_successful = 'Телефонная книга успешно сохранена!'
 
-empty_phone_book = 'Phonebook empty or closed'
+empty_phone_book = 'Телефонная книга пуста или не открыта!'
 
-new_contact = ['Enter name: ',
-               'Enter phone number: ',
-               'Enter comment: ']
+new_contact = ['Введите имя: ',
+               'Введите номер телефона: ',
+               'Введите комментарий: ']
 
 
 def new_contact_added_successful(name: str) -> str:
-    return f'Contact {name} successfully uploaded'
+    return f'Контакт {name} успешно добавлен!'
 
 
-input_search_word = 'Enter word to start searching: '
+input_search_word = 'Введите слово для поиска: '
 
 
 def contacts_not_found(word: str) -> str:
-    return f'Contacts including {word} were not found'
+    return f'Контакты содержащие {word} не найдены!'
 
 
-input_id_change_contact = 'Enter contact ID, you want to change: '
+input_id_change_contact = 'Введите ID контакта, который хотите изменить: '
 
-change_contact = ['Enter new name or Enter to skip changes: ',
-                  'Enter new number or Enter to skip changes: ',
-                  'Enter new  comment or Enter to skip changes: ']
+change_contact = ['Введите новое имя или Enter, чтобы оставить без изменений: ',
+                  'Введите новый номер или Enter, чтобы оставить без изменений: ',
+                  'Введите новый комментарий или Enter, чтобы оставить без изменений: ']
 
 
 def contact_change_successful(name: str) -> str:
-    return f'Contact {name} successfully changed'
+    return f'Контакт {name} успешно изменен!'
 
 
-input_id_deleted_contact = 'Enter contact ID you want to remove: '
+input_id_deleted_contact = 'Введите ID контакта, который хотите удалить: '
 
 
 def contact_delete_successful(name: str) -> str:
-    return f'Contact {name} successfully removed'
+    return f'Контакт {name} успешно удален!'
 
-good_bye = 'See you'
+good_bye = 'До свидания!'
