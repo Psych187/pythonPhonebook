@@ -38,13 +38,6 @@ def find_contact(word: str) -> dict[int, list[str]]:
             result[u_id] = contact
     return result
 
-# def find_contact():
-#     word = view.input_data(text.input_search_word)
-#     result = model.find_contact(word)
-#     view.show_contacts(result, text.contacts_not_found(word))
-
-
-
 
 def change_contact(c_id: int, c_contact: list[str]):
     global phone_book
